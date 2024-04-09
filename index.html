@@ -3,47 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advice-Generator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>News-Letter</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./advice.css">
 </head>
 <body>
+    <nav>
+        <a class="href" href="./how to generate.html">How To Generate Advice</a>
+    </nav>
+
     <div class="container">
-        <div class="img">
-                    <img class="svg" src="./assets/images/illustration-sign-up-desktop.svg" alt="svg">
-        </div>
-        <div class="content">
-            <h1>  Stay updated!</h1>
-            <p>Join 60,000+ product managers receiving monthly updates on:</p>
-            <ol>
-                <li><img class="tick" src="./assets/images/icon-list.svg" alt="svg">Product discovery and building what matters</li>
-                <li><img class="tick" src="./assets/images/icon-list.svg" alt="svg">Measuring to ensure updates are a success</li>
-                <li><img class="tick" src="./assets/images/icon-list.svg" alt="svg">And much more!</li>
-            </ol>
-            <h4 class="addr">Email address</h4>
-            <h4 class="hidden">Valid email required</h4>
-            <input class="email" id="email" type="email" placeholder="email@company.com" value="">
+        <h4 class="advice">Advice  #<span class="id">177</span></h4>
 
-            <button type="button" class="subscribe">Subscribe to monthly newsletter</button>
-        </div>
+        <p class="text">"<span class="text1">It is easy to sit up and take notice, what's difficult is getting up and taking action</span>"</p>
+
+        <img class="svg" alt="svg" src="./images/pattern-divider-desktop.svg">
+
     </div>
-
-    <div class="success">
-        <img class="sucsvg" src="./assets/images/icon-success.svg" alt="svg">
-        <h2> Thanks for subscribing!</h2>
-        <p> A confirmation email has been sent to <b><span class="email2">ash@loremcompany.com.</span> </b>
-            Please open it and click the button inside to confirm your subscription.</p>
-
-            <button class="dismiss">Dismiss Message</button>
+        <div class="none">
+            <img class="dice" alt="dice-svg" src="./images/icon-dice.svg">
     </div>
-
 
 
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./index.js"></script>
+    <script src="./advice.js"></script>
 </body>
 </html>
