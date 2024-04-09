@@ -11,6 +11,7 @@
   <li>Javascript</li>
   <li>HTML</li>
   <li>Css</li>
+  <li>API</li>
 </ul>
  to finish the project</h3>
 
