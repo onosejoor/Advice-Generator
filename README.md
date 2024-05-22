@@ -1,6 +1,4 @@
-# Project Title
-
-### Front-End Mentor Challenge: Advice-Generator 
+# Advice-Generator
 
 ## Description
 <h3>This is a Front-End mentor junior challenge. took me 1 day to finish.</h3>
